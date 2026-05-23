@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F0E4"/>
+      <stop offset="100%" stop-color="#EFE7D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.8">
+      <stop offset="0%" stop-color="#B17B23" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#B17B23" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <!-- Logo mark -->
+  <g transform="translate(96 96)" fill="none" stroke="#7A2E2A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 14 L24 40"/>
+    <path d="M24 14 C18 16 12 16 6 14 L6 36 C12 34 18 34 24 36 Z" fill="#7A2E2A" fill-opacity="0.1"/>
+    <path d="M24 14 C30 16 36 16 42 14 L42 36 C36 34 30 34 24 36 Z" fill="#7A2E2A" fill-opacity="0.2"/>
+    <circle cx="24" cy="7" r="3" fill="#7A2E2A" stroke="none"/>
+  </g>
+  <text x="160" y="135" font-family="Manrope, sans-serif" font-size="20" font-weight="700" fill="#6B5E4D" letter-spacing="3">AI CHURCH MEDIA DIRECTOR</text>
+
+  <!-- Headline -->
+  <text x="96" y="290" font-family="Fraunces, Georgia, serif" font-size="78" font-weight="500" fill="#2B221A" letter-spacing="-1.5">Turn one sermon into</text>
+  <text x="96" y="380" font-family="Fraunces, Georgia, serif" font-size="78" font-weight="500" font-style="italic" fill="#7A2E2A" letter-spacing="-1.5">a full week of content.</text>
+
+  <text x="96" y="460" font-family="Manrope, sans-serif" font-size="26" fill="#6B5E4D">Internal AI drafts. Pastoral review. A ready-to-edit weekly media kit.</text>
+
+  <!-- Tag chip -->
+  <rect x="96" y="510" width="280" height="46" rx="23" fill="#7A2E2A"/>
+  <text x="236" y="540" font-family="Manrope, sans-serif" font-size="18" font-weight="600" fill="#FBF6EC" text-anchor="middle" letter-spacing="0.5">FOUNDING-CHURCH PILOT</text>
+</svg>
