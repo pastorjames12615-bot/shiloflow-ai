@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="dark" />
 
-    <title>Shiloflow AI — The AI Workspace for Global Ministries</title>
+    <title>Shiloflow AI — AI Operating System for Global Ministries</title>
     <meta
       name="description"
-      content="Shiloflow AI is a premium multilingual AI SaaS platform for churches, pastors, ministries, and media teams."
+      content="Shiloflow AI transforms one sermon into a complete multilingual ministry ecosystem: create, translate, repurpose, publish, analyze, schedule, and distribute."
     />
     <meta name="theme-color" content="#050509" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Shiloflow AI" />
-    <meta property="og:description" content="The AI workspace for global ministries: sermons, translation, media, analytics, reports, and integrations." />
+    <meta property="og:description" content="The AI Operating System for Global Ministries." />
     <meta property="og:image" content="./assets/shiloflow-logo.jpeg" />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Shiloflow AI" />
-    <meta name="twitter:description" content="Premium multilingual AI SaaS for churches, pastors, ministries, and media teams." />
+    <meta name="twitter:description" content="Transform one sermon into a complete multilingual ministry ecosystem." />
     <meta name="twitter:image" content="./assets/shiloflow-logo.jpeg" />
 
     <link rel="icon" type="image/jpeg" href="./assets/shiloflow-logo.jpeg" />
@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
     />
 
     <link rel="stylesheet" href="./base.css" />
@@ -40,11 +40,11 @@
         "@type": "SoftwareApplication",
         "name": "Shiloflow AI",
         "applicationCategory": "BusinessApplication",
-        "description": "A multilingual AI workspace for churches, pastors, ministries, and media teams.",
+        "description": "An AI Operating System for Global Ministries.",
         "operatingSystem": "Web",
         "audience": {
           "@type": "Audience",
-          "audienceType": "Churches, pastors, ministries, and multilingual media teams"
+          "audienceType": "Churches, pastors, missionaries, ministries, and multilingual media teams"
         }
       }
     </script>
@@ -65,21 +65,24 @@
             <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="brand-logo" />
             <span>
               Shiloflow AI
-              <small>Global ministry workspace</small>
+              <small>AI OS for global ministries</small>
             </span>
           </a>
 
           <div class="nav-links" aria-label="Product sections">
             <a href="#platform">Platform</a>
             <a href="#translation">Translation</a>
-            <a href="#studio">Media Studio</a>
-            <a href="#analytics">Analytics</a>
+            <a href="#pipeline">Pipeline</a>
+            <a href="#studio">Media</a>
             <a href="#pricing">Pricing</a>
           </div>
 
           <div class="nav-actions">
             <a href="#login" class="btn btn--ghost" data-testid="link-login">Login</a>
             <a href="#request" class="btn btn--primary" data-testid="link-request-access">Request access</a>
+            <button type="button" class="nav-toggle" aria-label="Open navigation" aria-expanded="false" data-nav-toggle data-testid="button-mobile-nav">
+              <span></span><span></span>
+            </button>
           </div>
         </nav>
       </div>
@@ -91,31 +94,39 @@
           <div class="hero-copy reveal">
             <div class="eyebrow">
               <span class="pulse"></span>
-              Multilingual AI SaaS for churches, pastors, ministries, and media teams
+              An AI Operating System for Global Ministries
             </div>
-            <h1>The AI workspace for global ministries.</h1>
+            <h1>Transform One Sermon Into A Global Ministry Ecosystem.</h1>
             <p class="hero-lede">
-              Shiloflow AI helps ministry teams build sermons, translate content, generate subtitles, plan media, review analytics, and prepare weekly reports in English, Haitian Creole, Spanish, and French.
+              An AI Operating System for Global Ministries, Shiloflow AI helps churches, pastors, missionaries, ministries, and media teams create, translate, repurpose, publish, analyze, schedule, and distribute multilingual ministry content from one cinematic workspace.
             </p>
             <div class="hero-actions">
-              <a class="btn btn--primary btn--lg" href="#request" data-testid="button-hero-request">Request early access</a>
-              <a class="btn btn--glass btn--lg" href="#dashboard" data-testid="button-hero-preview">View dashboard preview</a>
+              <a class="btn btn--primary btn--lg" href="#request" data-testid="button-hero-request">Request platform access</a>
+              <a class="btn btn--glass btn--lg" href="#watch-demo" data-testid="button-watch-demo">Watch demo</a>
             </div>
-            <div class="language-row" aria-label="Supported languages">
+            <div class="language-row language-row--compact" aria-label="Featured supported languages">
               <span>English</span>
               <span>Haitian Creole</span>
               <span>Spanish</span>
               <span>French</span>
+              <span>Portuguese</span>
+              <span>Swahili</span>
+              <span>Arabic</span>
+              <span>Mandarin</span>
+            </div>
+            <div class="ai-typing" aria-label="Live AI workflow preview">
+              <span>AI workflow</span>
+              <b data-typing>Generating multilingual ministry assets…</b>
             </div>
           </div>
 
           <div class="hero-visual reveal" id="dashboard" aria-label="Shiloflow AI dashboard preview">
             <div class="orb orb--purple"></div>
             <div class="orb orb--gold"></div>
-            <div class="dashboard-frame">
+            <div class="dashboard-frame dashboard-frame--hero">
               <div class="frame-topbar">
                 <div class="window-dots"><i></i><i></i><i></i></div>
-                <span>Shiloflow Command Center</span>
+                <span>Shiloflow Global Command Center</span>
                 <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="mini-logo" />
               </div>
               <div class="dashboard-layout">
@@ -124,22 +135,23 @@
                   <nav>
                     <span class="active">Overview</span>
                     <span>Translation</span>
-                    <span>Sermon Builder</span>
+                    <span>Sermons</span>
                     <span>Media Studio</span>
+                    <span>Analytics</span>
                     <span>Reports</span>
                     <span>Settings</span>
                   </nav>
                 </aside>
                 <div class="dashboard-main">
                   <div class="metric-row">
-                    <article><b>4</b><span>Languages active</span></article>
-                    <article><b>82%</b><span>Subtitle accuracy review</span></article>
-                    <article><b>19</b><span>Clips ready</span></article>
+                    <article><b>20</b><span>Languages</span></article>
+                    <article><b>47</b><span>Assets generated</span></article>
+                    <article><b>91%</b><span>Global reach lift</span></article>
                   </div>
                   <div class="wide-panel">
                     <div>
                       <span class="panel-kicker">AI recommendations</span>
-                      <h3>Translate this week’s altar call before Wednesday outreach.</h3>
+                      <h3>Publish the Haitian Creole recap before tonight’s outreach window.</h3>
                     </div>
                     <div class="chart-bars" aria-hidden="true">
                       <i style="height:34%"></i><i style="height:68%"></i><i style="height:48%"></i><i style="height:84%"></i><i style="height:58%"></i>
@@ -147,14 +159,14 @@
                   </div>
                   <div class="content-grid">
                     <article class="glass-card">
-                      <span>Next Sermon</span>
-                      <b>Anchored in Hope</b>
-                      <p>Outline, scripture suggestions, and teaching points generated.</p>
+                      <span>Current sermon</span>
+                      <b>Hope That Holds</b>
+                      <p>Outline, translations, clips, devotionals, and schedule ready.</p>
                     </article>
                     <article class="glass-card">
-                      <span>Media Queue</span>
-                      <b>7 exports</b>
-                      <p>Shorts, Reels, subtitles, descriptions, and thumbnails.</p>
+                      <span>Publishing queue</span>
+                      <b>12 channels</b>
+                      <p>YouTube, Reels, TikTok, Facebook, Drive, and partner exports.</p>
                     </article>
                   </div>
                 </div>
@@ -166,9 +178,30 @@
 
       <section class="section logos">
         <div class="shell">
-          <p>Built for global ministry workflows across every major media channel</p>
-          <div class="integration-strip" aria-label="Supported integrations">
-            <span>YouTube</span><span>Facebook</span><span>Instagram</span><span>TikTok</span><span>OpenAI</span><span>ElevenLabs</span><span>Google Drive</span><span>Zapier</span>
+          <p>Designed like a premium AI ecosystem for ministry teams operating across cultures, channels, and languages</p>
+          <div class="integration-strip" aria-label="Core ministry workflow">
+            <span>Create</span><span>Translate</span><span>Repurpose</span><span>Publish</span><span>Analyze</span><span>Schedule</span><span>Distribute</span><span>Report</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-shiloflow" id="why">
+        <div class="shell why-grid">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Why Shiloflow AI?</span>
+            <h2>More Than A Sermon Generator</h2>
+            <p>Shiloflow AI transforms one sermon into multilingual translations, subtitles, YouTube Shorts, devotionals, social media posts, analytics, reports, and global publishing workflows.</p>
+          </div>
+          <div class="why-orbit reveal" aria-label="Shiloflow AI content ecosystem">
+            <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" />
+            <span>Translations</span>
+            <span>Subtitles</span>
+            <span>YouTube Shorts</span>
+            <span>Devotionals</span>
+            <span>Social Posts</span>
+            <span>Analytics</span>
+            <span>Reports</span>
+            <span>Global Publishing</span>
           </div>
         </div>
       </section>
@@ -176,86 +209,244 @@
       <section class="section" id="platform">
         <div class="shell section-heading reveal">
           <span class="eyebrow">Platform</span>
-          <h2>One cinematic workspace for sermon creation, translation, media, analytics, reports, and team settings.</h2>
-          <p>Shiloflow AI is designed like the SaaS products your team already loves: fast, structured, collaborative, and built around the real weekly rhythm of ministry.</p>
+          <h2>The operating layer for multilingual ministry content.</h2>
+          <p>Shiloflow AI is not just a sermon generator. It is the command system that helps ministry teams turn the message into structured content, translated outputs, media assets, performance insights, and global distribution workflows.</p>
         </div>
 
-        <div class="shell feature-grid">
+        <div class="shell feature-grid feature-grid--dense">
           <article class="feature-card reveal">
             <span class="feature-icon">01</span>
-            <h3>Translation Center</h3>
-            <p>Translate sermon notes, social captions, subtitles, and announcements across English, Haitian Creole, Spanish, and French.</p>
-            <ul><li>AI translation dashboard</li><li>Multilingual previews</li><li>Subtitle and export tools</li></ul>
+            <h3>AI Sermon Workspace</h3>
+            <p>Build sermons with structure, scripture, teaching depth, and multilingual readiness.</p>
+            <ul><li>Outline assistant</li><li>Scripture assistant</li><li>Illustration generator</li><li>Altar call assistant</li></ul>
           </article>
           <article class="feature-card reveal">
             <span class="feature-icon">02</span>
-            <h3>AI Sermon Builder</h3>
-            <p>Move from theme to structure with outline generation, teaching points, scripture suggestions, altar calls, and assistant prompts.</p>
-            <ul><li>Sermon outline generation</li><li>Scripture suggestions</li><li>Altar call builder</li></ul>
+            <h3>Global Translation Center</h3>
+            <p>Generate subtitles, voiceovers, side-by-side translations, and multilingual previews.</p>
+            <ul><li>20 supported languages</li><li>Subtitle exports</li><li>Voice dubbing support</li><li>Auto-caption tools</li></ul>
           </article>
           <article class="feature-card reveal">
             <span class="feature-icon">03</span>
             <h3>Media Studio</h3>
-            <p>Turn sermons into social-ready moments with AI clip detection, captions, subtitle editing, timeline review, and export queues.</p>
-            <ul><li>AI clip detection</li><li>Subtitle editor</li><li>YouTube Shorts generator</li></ul>
+            <p>Detect clips, edit timelines, generate thumbnails, export Reels, and repurpose social content.</p>
+            <ul><li>AI clip detection</li><li>Timeline editor</li><li>Shorts generator</li><li>Quote graphics</li></ul>
           </article>
           <article class="feature-card reveal">
             <span class="feature-icon">04</span>
             <h3>Analytics Dashboard</h3>
-            <p>Track multilingual performance, engagement, audience growth, top content, and AI recommendations for next week’s ministry plan.</p>
-            <ul><li>Audience growth</li><li>Engagement charts</li><li>Top-performing content</li></ul>
+            <p>Track engagement, retention, multilingual performance, top sermons, and publishing insights.</p>
+            <ul><li>Growth charts</li><li>Audience retention</li><li>AI recommendations</li><li>Top content</li></ul>
           </article>
+        </div>
+      </section>
+
+      <section class="section platform-dashboard" id="platform-dashboard">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Platform Dashboard Preview</span>
+          <h2>A real AI SaaS workspace for ministry operations.</h2>
+          <p>Shiloflow AI brings sermon creation, translation, subtitle exports, analytics, publishing, uploads, and media assets into one operational command center.</p>
+        </div>
+        <div class="shell ops-dashboard reveal" aria-label="Operational Shiloflow AI dashboard preview">
+          <aside class="ops-sidebar">
+            <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="ops-logo" />
+            <nav aria-label="Dashboard navigation">
+              <span class="is-active">Command Center</span>
+              <span>Sermon Workspace</span>
+              <span>Translation Queue</span>
+              <span>Subtitle Exports</span>
+              <span>Analytics</span>
+              <span>Uploads</span>
+              <span>Publishing</span>
+              <span>Media Library</span>
+            </nav>
+          </aside>
+          <div class="ops-main">
+            <div class="ops-top">
+              <div>
+                <span class="panel-kicker">Live workspace</span>
+                <h3>Sunday sermon operating system</h3>
+              </div>
+              <button type="button" class="btn btn--glass" data-coming-soon="Workspace sync" data-testid="button-dashboard-sync">Sync workspace</button>
+            </div>
+            <div class="ops-grid">
+              <article class="ops-card ops-card--large">
+                <span>Sermon Workspace</span>
+                <b>“Faith That Holds Under Pressure”</b>
+                <p>Outline, teaching points, altar call, scripture notes, and multilingual summaries are ready for pastoral review.</p>
+                <div class="progress-line"><i style="width: 76%"></i></div>
+              </article>
+              <article class="ops-card">
+                <span>Translation Queue</span>
+                <b>12 drafts</b>
+                <p>Haitian Creole, Spanish, French, Swahili, Arabic</p>
+              </article>
+              <article class="ops-card">
+                <span>Subtitle Export Panel</span>
+                <b>SRT · VTT · TXT</b>
+                <p>Caption timing reviewed across 4 languages.</p>
+              </article>
+              <article class="ops-card">
+                <span>Analytics Cards</span>
+                <b>+41% reach</b>
+                <p>Creole recap clips are outperforming Sunday average.</p>
+              </article>
+              <article class="ops-card">
+                <span>Recent Uploads</span>
+                <b>3 sermons</b>
+                <p>MP4, WAV, transcript, and livestream archive.</p>
+              </article>
+              <article class="ops-card">
+                <span>Scheduled Publishing</span>
+                <b>18 posts</b>
+                <p>Queued for YouTube, Facebook, Instagram, and TikTok.</p>
+              </article>
+              <article class="ops-card ops-card--library">
+                <span>Media Asset Library</span>
+                <div class="asset-row"><i></i><i></i><i></i><i></i></div>
+                <p>Clips, quote graphics, thumbnails, captions, reports.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how-works" id="how-it-works">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">How Shiloflow Works</span>
+          <h2>Simple enough for weekly ministry. Powerful enough for global operations.</h2>
+          <p>Upload the sermon once. Shiloflow AI moves it through transcription, translation, subtitles, clips, publishing, and reporting with connected workflow intelligence.</p>
+        </div>
+        <div class="shell workflow-line reveal" aria-label="How Shiloflow AI works">
+          <article><b>01</b><span>Upload sermon</span></article>
+          <article><b>02</b><span>AI transcription</span></article>
+          <article><b>03</b><span>AI translation</span></article>
+          <article><b>04</b><span>Subtitle generation</span></article>
+          <article><b>05</b><span>Social clips generation</span></article>
+          <article><b>06</b><span>Publishing workflow</span></article>
+          <article><b>07</b><span>Analytics/reporting</span></article>
+        </div>
+      </section>
+
+      <section class="section global-ministries" id="global-ministries">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Global reach</span>
+            <h2>Built For Global Ministries</h2>
+            <p>Shiloflow AI helps ministry teams serve people in the language they pray in, learn in, and share in. It supports immigrant churches, missionaries, revival ministries, multilingual congregations, international churches, online ministries, and global outreach organizations.</p>
+          </div>
+          <div class="use-case-grid">
+            <article class="use-card reveal"><b>Immigrant churches</b><span>Bridge generations and languages without multiplying staff workload.</span></article>
+            <article class="use-card reveal"><b>Missionaries</b><span>Translate teaching, updates, reports, and local ministry content faster.</span></article>
+            <article class="use-card reveal"><b>Revival ministries</b><span>Repurpose long-form messages into clips, subtitles, devotionals, and follow-up content.</span></article>
+            <article class="use-card reveal"><b>Multilingual congregations</b><span>Serve English, Creole, Spanish, French, and other language groups from one source message.</span></article>
+            <article class="use-card reveal"><b>International churches</b><span>Coordinate global teams, publishing schedules, and translation workflows.</span></article>
+            <article class="use-card reveal"><b>Online ministries</b><span>Distribute sermons, captions, social posts, reports, and analytics across platforms.</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pipeline-section" id="pipeline">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Signature Workflow</span>
+          <h2>Sermon to Content Pipeline</h2>
+          <p>One sermon enters Shiloflow AI. A complete multilingual ministry ecosystem comes out: translated, repurposed, measured, scheduled, and ready to publish globally.</p>
+        </div>
+        <div class="shell pipeline reveal" aria-label="Sermon to content pipeline">
+          <div class="pipe-node"><b>Sermon</b><span>Video, audio, notes, or transcript</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Translation</b><span>20-language global translation layer</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Subtitle Generation</b><span>Captions, SRT, multilingual review</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>YouTube Shorts</b><span>AI clip detection and export queue</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Social Media Posts</b><span>Facebook, Instagram, TikTok, and outreach copy</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Devotionals</b><span>Daily reflection and discipleship content</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Scheduling</b><span>Weekly calendar and publishing queue</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Analytics</b><span>Performance by language and channel</span></div>
+          <div class="pipe-arrow">↓</div>
+          <div class="pipe-node"><b>Global Publishing</b><span>Multichannel distribution for global reach</span></div>
         </div>
       </section>
 
       <section class="section product-showcase" id="translation">
         <div class="shell showcase-grid">
           <div class="showcase-copy reveal">
-            <span class="eyebrow">Translation Center</span>
-            <h2>Global ministry content without losing pastoral clarity.</h2>
-            <p>Switch between languages, review subtitle drafts, preview platform-specific content, and export translation packets for your media team.</p>
-            <div class="tab-row" role="tablist" aria-label="Language previews">
-              <button class="active" type="button" data-testid="tab-english">English</button>
-              <button type="button" data-testid="tab-creole">Haitian Creole</button>
-              <button type="button" data-testid="tab-spanish">Spanish</button>
-              <button type="button" data-testid="tab-french">French</button>
+            <span class="eyebrow">Translation OS</span>
+            <h2>Global Ministry Translation Center</h2>
+            <p>Generate AI subtitles, review side-by-side translations, preview sermon clips in multiple languages, export subtitle files, prepare AI voiceovers, and coordinate auto-caption workflows for global teams.</p>
+            <div class="language-cloud" aria-label="Supported languages">
+              <span>English</span><span>Haitian Creole</span><span>Spanish</span><span>French</span><span>Portuguese</span><span>Brazilian Portuguese</span><span>Italian</span><span>German</span><span>Dutch</span><span>Swahili</span><span>Arabic</span><span>Mandarin Chinese</span><span>Hindi</span><span>Korean</span><span>Japanese</span><span>Russian</span><span>Tagalog</span><span>Yoruba</span><span>Igbo</span><span>Amharic</span>
+            </div>
+            <div class="translation-stats" aria-label="Translation capabilities">
+              <article><b>20</b><span>Supported languages</span></article>
+              <article><b>SRT</b><span>Subtitle exports</span></article>
+              <article><b>Voice</b><span>Dubbing and AI voiceover</span></article>
             </div>
           </div>
           <div class="translation-panel reveal">
             <div class="panel-header">
               <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="mini-logo" />
-              <span>Subtitle Generation</span>
-              <button type="button" data-testid="button-export-subtitles">Export SRT</button>
+              <span>Side-by-side translation preview</span>
+              <button type="button" data-coming-soon="Subtitle exports" data-testid="button-export-subtitles">Download SRT</button>
             </div>
-            <div class="subtitle-lines">
-              <p><time>00:01:12</time> Hope is not a feeling we manufacture. It is an anchor we receive.</p>
-              <p><time>00:01:18</time> L’espérance n’est pas un sentiment que nous fabriquons.</p>
-              <p><time>00:01:24</time> La esperanza no es un sentimiento que fabricamos.</p>
-              <p><time>00:01:30</time> Lespwa se pa yon santiman nou fabrike.</p>
+            <div class="tab-row" role="tablist" aria-label="Language switcher">
+              <button class="active" type="button" data-testid="tab-english">English</button>
+              <button type="button" data-testid="tab-creole">Creole</button>
+              <button type="button" data-testid="tab-spanish">Spanish</button>
+              <button type="button" data-testid="tab-french">French</button>
+              <button type="button" data-testid="tab-swahili">Swahili</button>
+            </div>
+            <div class="translation-columns">
+              <div>
+                <b>Original</b>
+                <p><time>00:01:12</time> Hope is not a feeling we manufacture. It is an anchor we receive.</p>
+                <p><time>00:01:18</time> Christ does not simply give us language for pain. He gives us Himself in the storm.</p>
+              </div>
+              <div>
+                <b>Translation draft</b>
+                <p><time>00:01:12</time> L’espérance n’est pas un sentiment que nous fabriquons. C’est une ancre que nous recevons.</p>
+                <p><time>00:01:18</time> Kris pa sèlman ban nou mo pou doulè a. Li ban nou tèt li nan tanpèt la.</p>
+              </div>
+            </div>
+            <div class="voice-row">
+              <span>AI voiceover generation</span>
+              <span>Multilingual voice dubbing support</span>
+              <span>Auto-caption tools</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section split-dark" id="sermon-builder">
+      <section class="section split-dark" id="sermon-workspace">
         <div class="shell split-grid">
           <div class="builder-card reveal">
             <div class="card-top">
               <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="mini-logo" />
-              <span>AI Sermon Builder</span>
+              <span>AI Sermon Workspace</span>
             </div>
-            <h3>Sunday: Faith that Holds Under Pressure</h3>
+            <h3>Faith That Holds Under Pressure</h3>
             <div class="builder-list">
-              <p><b>Outline</b><span>Introduction, Exposition, Application, Altar Call</span></p>
-              <p><b>Scriptures</b><span>Hebrews 6:19, Romans 15:13, Psalm 62:5</span></p>
-              <p><b>Teaching points</b><span>Hope anchors, faith endures, worship remembers</span></p>
-              <p><b>Assistant</b><span>Generate closing prayer, small-group questions, multilingual recap</span></p>
+              <p><b>Sermon outline assistant</b><span>Introduction, exposition, application, altar call, and response moments.</span></p>
+              <div class="inline-tools" aria-label="Sermon builder tools">
+                <button type="button" data-coming-soon="Sermon outline">Sermon outline</button>
+                <button type="button" data-coming-soon="Exposition builder">Exposition</button>
+                <button type="button" data-coming-soon="Application builder">Application</button>
+                <button type="button" data-coming-soon="Altar call assistant">Altar call</button>
+              </div>
+              <p><b>Scripture assistant</b><span>Cross references, key passages, original-language notes, and study prompts.</span></p>
+              <p><b>Teaching point builder</b><span>Three movements, sermon expansion, theological insight tools, and summary points.</span></p>
+              <p><b>Multilingual sermon translation</b><span>Prepare outlines and recaps for global teams before publishing.</span></p>
             </div>
           </div>
           <div class="showcase-copy reveal">
-            <span class="eyebrow">AI Sermon Builder</span>
-            <h2>Draft sermons with structure, scripture, and ministry sensitivity.</h2>
-            <p>Use AI to accelerate the framework while pastors retain discernment, doctrine, and final authority. Build teaching points, scripture references, illustration prompts, altar calls, and follow-up content in one flow.</p>
+            <span class="eyebrow">AI Sermon Workspace</span>
+            <h2>From sermon idea to organized teaching system.</h2>
+            <p>Create outlines, expand teaching sections, generate illustrations, refine altar calls, organize sermon series, and prepare multilingual sermon assets while pastoral discernment remains in control.</p>
           </div>
         </div>
       </section>
@@ -263,22 +454,60 @@
       <section class="section" id="studio">
         <div class="shell section-heading reveal">
           <span class="eyebrow">Media Studio</span>
-          <h2>From full sermon to publish-ready short-form content.</h2>
-          <p>Detect high-impact moments, refine subtitles, preview clips in a widescreen timeline, and prepare exports for YouTube Shorts, Reels, TikTok, and Facebook.</p>
+          <h2>Repurpose sermons into platform-native media.</h2>
+          <p>Use AI clip detection, a timeline editor, subtitle tools, Shorts generation, TikTok/Reels exports, thumbnail creation, quote graphics, and social media repurposing from one premium media workspace.</p>
         </div>
         <div class="shell media-studio reveal">
           <div class="video-stage">
             <div class="play-button"></div>
-            <span>Clip Preview · 16:9</span>
+            <span>AI clip timeline · 16:9 master preview</span>
           </div>
           <div class="timeline">
-            <span style="width:18%"></span><span style="width:26%"></span><span style="width:14%"></span><span style="width:30%"></span>
+            <span style="width:14%"></span><span style="width:18%"></span><span style="width:24%"></span><span style="width:16%"></span><span style="width:22%"></span>
           </div>
           <div class="studio-tools">
-            <article><b>AI clip detection</b><p>Find testimony, illustration, scripture, and altar-call moments.</p></article>
+            <article><b>AI clip detection</b><p>Find testimony, illustration, scripture, altar-call, and quote-worthy moments.</p></article>
             <article><b>Subtitle editor</b><p>Review lines, speaker breaks, language variants, and timing.</p></article>
-            <article><b>Export tools</b><p>Generate Shorts captions, thumbnails, descriptions, and channel packets.</p></article>
+            <article><b>YouTube Shorts generator</b><p>Prepare Shorts, TikTok/Reels exports, descriptions, and caption packs.</p></article>
+            <article><b>Thumbnail generator</b><p>Create title treatments, hook text, and visual direction for designers.</p></article>
+            <article><b>Quote graphic generator</b><p>Turn sermon moments into branded scripture, quote, and devotional cards.</p></article>
+            <article><b>AI social repurposing</b><p>Generate posts, devotionals, email summaries, and channel-specific copy.</p></article>
           </div>
+        </div>
+      </section>
+
+      <section class="section real-outputs" id="outputs">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Real Ministry Outputs</span>
+          <h2>Operational outputs your team can review, edit, and publish.</h2>
+          <p>Shiloflow AI turns ministry content into practical assets displayed in realistic workspace cards, ready for pastoral review and team collaboration.</p>
+        </div>
+        <div class="shell output-grid">
+          <article class="output-card output-card--wide reveal">
+            <span>AI-generated sermon excerpt</span>
+            <h3>“Faith does not deny the storm. Faith remembers who is in the boat.”</h3>
+            <p>Teaching point: The presence of Christ is not merely comfort after the storm; it is authority within the storm.</p>
+          </article>
+          <article class="output-card reveal">
+            <span>Haitian Creole translation</span>
+            <p>Lafwa pa nye tanpèt la. Lafwa sonje kiyès ki nan bato a avèk nou.</p>
+          </article>
+          <article class="output-card reveal">
+            <span>Subtitle/SRT export preview</span>
+            <code>00:03:14,000 → 00:03:18,400<br />Faith remembers who is in the boat.</code>
+          </article>
+          <article class="output-card reveal">
+            <span>YouTube description</span>
+            <p>In this message, Pastor James teaches how hope anchors the soul when pressure rises. Watch, share, and subscribe for weekly teaching.</p>
+          </article>
+          <article class="output-card reveal">
+            <span>Sermon clip cards</span>
+            <div class="clip-stack"><b>00:42 Hope as an anchor</b><b>03:14 Faith in the storm</b><b>18:09 Altar call moment</b></div>
+          </article>
+          <article class="output-card reveal">
+            <span>Social media captions</span>
+            <p>“You are not abandoned in the storm. Christ is present, speaking, and able.” #SundaySermon #Faith #Hope</p>
+          </article>
         </div>
       </section>
 
@@ -286,12 +515,12 @@
         <div class="shell analytics-grid">
           <div class="showcase-copy reveal">
             <span class="eyebrow">Analytics Dashboard</span>
-            <h2>Know what is reaching people across every language.</h2>
-            <p>Measure engagement, audience growth, multilingual performance, top-performing content, and AI recommendations for your next publishing rhythm.</p>
+            <h2>Measure what is reaching people across languages and channels.</h2>
+            <p>Track engagement charts, multilingual performance, audience retention, top-performing sermons, AI recommendations, and publishing insights across the entire ministry content ecosystem.</p>
           </div>
           <div class="analytics-panel reveal">
             <div class="analytics-top">
-              <span>Ministry Growth</span>
+              <span>Global Ministry Growth</span>
               <b>+34%</b>
             </div>
             <div class="line-chart" aria-hidden="true">
@@ -301,27 +530,9 @@
               </svg>
             </div>
             <div class="analytics-tags">
-              <span>English +22%</span><span>Haitian Creole +41%</span><span>Spanish +31%</span><span>French +18%</span>
+              <span>Retention +18%</span><span>Creole +41%</span><span>Spanish +31%</span><span>Swahili +26%</span>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="section" id="integrations">
-        <div class="shell section-heading reveal">
-          <span class="eyebrow">Integrations</span>
-          <h2>Connect the tools your ministry already uses.</h2>
-          <p>Prepare your content once, then move it across your media, AI, storage, and automation stack.</p>
-        </div>
-        <div class="shell integration-grid">
-          <article>YouTube<span>Video publishing and Shorts</span></article>
-          <article>Facebook<span>Page posts and community updates</span></article>
-          <article>Instagram<span>Reels, carousels, and captions</span></article>
-          <article>TikTok<span>Short-form sermon moments</span></article>
-          <article>OpenAI<span>AI copy and assistant workflows</span></article>
-          <article>ElevenLabs<span>Voice and multilingual audio</span></article>
-          <article>Google Drive<span>Shared folders and exports</span></article>
-          <article>Zapier<span>Automation with ministry systems</span></article>
         </div>
       </section>
 
@@ -330,21 +541,156 @@
           <article class="large-card reveal" id="reports">
             <span class="eyebrow">Reports</span>
             <h2>Executive summaries for ministry leadership.</h2>
-            <p>Generate weekly ministry reports with engagement insights, multilingual performance, top content, and exportable PDF-ready summaries for staff meetings.</p>
+            <p>Generate AI executive summaries, weekly ministry reports, exportable PDF reports, growth analytics, and engagement summaries for pastors, staff, boards, and outreach partners.</p>
             <div class="report-preview">
               <b>Weekly Ministry Report</b>
-              <span>Audience growth, sermon reach, content performance, AI recommendations</span>
-              <button type="button" data-testid="button-export-report">Export PDF</button>
+              <span>Reach by language, sermon performance, audience growth, AI recommendations, next-week content plan</span>
+              <button type="button" data-coming-soon="PDF reports" data-testid="button-export-report">Export PDF</button>
             </div>
           </article>
           <article class="large-card reveal" id="settings">
             <span class="eyebrow">Settings</span>
             <h2>Control the workspace around your ministry.</h2>
-            <p>Manage workspace settings, language defaults, AI preferences, team permissions, billing, and branding customization from one clean admin surface.</p>
+            <p>Set language preferences, AI writing style, theological depth controls, branding customization, team permissions, billing, security, and workspace settings.</p>
             <div class="settings-list">
-              <span>Workspace settings</span><span>Language settings</span><span>AI preferences</span><span>Team permissions</span><span>Billing</span><span>Branding customization</span>
+              <button type="button" data-coming-soon="Language settings">Language preferences</button>
+              <button type="button" data-coming-soon="AI preferences">AI writing style</button>
+              <button type="button" data-coming-soon="Theological depth controls">Theological depth</button>
+              <button type="button" data-coming-soon="Branding customization">Branding</button>
+              <button type="button" data-coming-soon="Team permissions">Team permissions</button>
+              <button type="button" data-coming-soon="Billing">Billing</button>
+              <button type="button" data-coming-soon="Security settings">Security</button>
+              <button type="button" data-coming-soon="Workspace settings">Workspace settings</button>
+              <button type="button" data-coming-soon="Customization tools">Customization</button>
             </div>
           </article>
+        </div>
+      </section>
+
+      <section class="section collaboration" id="collaboration">
+        <div class="shell showcase-grid">
+          <div class="showcase-copy reveal">
+            <span class="eyebrow">Team Collaboration</span>
+            <h2>Editors, translators, and media managers in one workspace.</h2>
+            <p>Create team workspaces with role permissions, translator queues, media manager assignments, editor review, and comments tied to sermon clips, captions, translations, and reports.</p>
+          </div>
+          <div class="collab-board reveal">
+            <div class="panel-header">
+              <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="mini-logo" />
+              <span>Review Board</span>
+              <button type="button" data-coming-soon="Team comments" data-testid="button-open-comments">Open comments</button>
+            </div>
+            <div class="kanban">
+              <article><b>Editors</b><span>Review captions</span><span>Approve devotional</span></article>
+              <article><b>Translators</b><span>Creole subtitles</span><span>Spanish voiceover</span></article>
+              <article><b>Media managers</b><span>Export Shorts</span><span>Schedule posts</span></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow-use-cases" id="workflows">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Ministry workflows</span>
+          <h2>Built around the way ministry actually moves.</h2>
+          <p>Every workflow starts with the message, then routes into the right translation, media, scheduling, and reporting system for the audience you are called to reach.</p>
+        </div>
+        <div class="shell workflow-grid">
+          <article class="workflow-card reveal"><b>Sunday Sermon Workflow</b><span>Outline, transcript, clip moments, subtitles, recap posts, devotional follow-up, and weekly report.</span></article>
+          <article class="workflow-card reveal"><b>Revival Campaign Workflow</b><span>Nightly message repurposing, rapid quote graphics, altar-call clips, multilingual recaps, and partner updates.</span></article>
+          <article class="workflow-card reveal"><b>YouTube Ministry Workflow</b><span>Titles, descriptions, chapters, Shorts, thumbnail text, retention insights, and next-video recommendations.</span></article>
+          <article class="workflow-card reveal"><b>Multilingual Church Workflow</b><span>Side-by-side translations, subtitle exports, voiceover support, and language-specific publishing queues.</span></article>
+          <article class="workflow-card reveal"><b>Social Media Outreach Workflow</b><span>Reels, TikTok captions, Facebook posts, carousels, devotionals, and scheduled global distribution.</span></article>
+        </div>
+      </section>
+
+      <section class="section" id="integrations">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Integrations</span>
+          <h2>Connect your AI, media, storage, livestream, and automation stack.</h2>
+          <p>Shiloflow AI is designed to plug into the tools ministries already use to publish, distribute, and report on global content.</p>
+        </div>
+        <div class="shell integration-grid">
+          <article role="button" tabindex="0" data-coming-soon="YouTube integration">YouTube<span>Video publishing and Shorts</span></article>
+          <article role="button" tabindex="0" data-coming-soon="Facebook integration">Facebook<span>Page posts and community updates</span></article>
+          <article role="button" tabindex="0" data-coming-soon="Instagram integration">Instagram<span>Reels, carousels, and captions</span></article>
+          <article>TikTok<span>Short-form sermon moments</span></article>
+          <article>OpenAI<span>AI content and assistant workflows</span></article>
+          <article>Claude<span>Deep writing, reasoning, and review</span></article>
+          <article>ElevenLabs<span>Voiceover and multilingual audio</span></article>
+          <article>Google Drive<span>Shared folders and exports</span></article>
+          <article>Dropbox<span>Media libraries and archives</span></article>
+          <article>Zapier<span>Automation with ministry systems</span></article>
+          <article>OBS Studio<span>Livestream and production workflows</span></article>
+          <article>Restream<span>Multichannel live distribution</span></article>
+        </div>
+      </section>
+
+      <section class="section mobile-demo" id="watch-demo">
+        <div class="shell mobile-demo-grid">
+          <div class="phone-preview phone-preview--dual reveal">
+            <div class="phone-shell phone-shell--iphone">
+              <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="phone-logo" />
+              <span class="phone-kicker">iPhone preview</span>
+              <h3>Review. Approve. Publish.</h3>
+              <div class="phone-card">Creole subtitles ready</div>
+              <div class="phone-card">3 Shorts awaiting approval</div>
+              <div class="phone-card">Sunday report generated</div>
+            </div>
+            <div class="phone-shell phone-shell--android">
+              <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="phone-logo" />
+              <span class="phone-kicker">Android preview</span>
+              <h3>Mobile App Coming Soon</h3>
+              <div class="phone-card">Translation queue</div>
+              <div class="phone-card">Publishing calendar</div>
+              <div class="phone-card">Live analytics alerts</div>
+            </div>
+          </div>
+          <div class="demo-card reveal">
+            <span class="eyebrow">Watch Demo</span>
+            <h2>Watch the full Shiloflow AI workflow in motion.</h2>
+            <p>Preview the cinematic dashboard, AI sermon generation, translation workflow, subtitle generation, and media studio workflow in one guided product demo.</p>
+            <div class="demo-grid" aria-label="Demo previews">
+              <article><b>Cinematic dashboard preview</b><span>Global ministry command center</span></article>
+              <article><b>AI sermon generation demo</b><span>Outline, scripture, teaching points</span></article>
+              <article><b>Translation workflow demo</b><span>20-language side-by-side previews</span></article>
+              <article><b>Subtitle generation preview</b><span>SRT export and captions</span></article>
+              <article><b>Media studio workflow</b><span>Clips, thumbnails, Shorts, Reels</span></article>
+            </div>
+            <a href="#request" class="btn btn--primary btn--lg" data-testid="button-demo-request">Request a guided demo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section action-demo" id="action-demo">
+        <div class="shell action-demo-card reveal">
+          <div class="demo-video-frame" role="button" tabindex="0" data-coming-soon="Product demo video" aria-label="Watch Shiloflow in action video placeholder">
+            <div class="demo-scan"></div>
+            <div class="glow-play" aria-hidden="true"></div>
+            <span>Watch Shiloflow In Action</span>
+            <p>Dashboard motion preview · sermon generation · translation · subtitles · media studio</p>
+          </div>
+          <div class="demo-video-copy">
+            <span class="eyebrow">Premium product demo</span>
+            <h2>Watch Shiloflow In Action</h2>
+            <p>See how a ministry team moves from sermon upload to AI transcription, translation, subtitle generation, social clips, publishing, and analytics inside one cinematic operating system.</p>
+            <a href="#request" class="btn btn--primary btn--lg" data-testid="button-action-demo">Book the live demo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section security-trust" id="security">
+        <div class="shell section-heading reveal">
+          <span class="eyebrow">Security & Ministry Trust</span>
+          <h2>Private ministry media deserves an enterprise-grade workspace.</h2>
+          <p>Shiloflow AI is designed around secure collaboration, protected media, and ministry-specific permissions for teams handling sermons, archives, and multilingual publishing assets.</p>
+        </div>
+        <div class="shell trust-grid">
+          <article class="trust-card reveal"><b>secure cloud workspace</b><span>Centralized access for sermon, media, translation, and reporting workflows.</span></article>
+          <article class="trust-card reveal"><b>Protected sermon archives</b><span>Keep messages, notes, transcripts, and outputs organized in private workspaces.</span></article>
+          <article class="trust-card reveal"><b>Encrypted uploads</b><span>Designed for safe handling of video, audio, transcripts, and sensitive ministry files.</span></article>
+          <article class="trust-card reveal"><b>Ministry team permissions</b><span>Grant pastors, editors, translators, and media managers the right level of access.</span></article>
+          <article class="trust-card reveal"><b>Private media storage</b><span>Store clips, thumbnails, subtitles, voiceovers, and reports with workspace-level control.</span></article>
         </div>
       </section>
 
@@ -352,8 +698,8 @@
         <div class="shell login-grid">
           <div class="showcase-copy reveal">
             <span class="eyebrow">Login Experience</span>
-            <h2>A premium workspace from the first screen.</h2>
-            <p>The Shiloflow AI login experience is designed for ministry teams that need a focused, secure-feeling, modern SaaS environment without visual clutter.</p>
+            <h2>A secure-feeling premium workspace from the first screen.</h2>
+            <p>The Shiloflow AI login experience is designed for ministry teams that need focus, hierarchy, and clarity without looking like a generic church flyer or basic ministry page.</p>
           </div>
           <form class="login-card reveal" aria-label="Login preview">
             <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="login-logo" />
@@ -362,48 +708,94 @@
             <input id="login-email" type="email" value="team@shiloflow.ai" data-testid="input-login-email" />
             <label for="login-password">Password</label>
             <input id="login-password" type="password" value="password" data-testid="input-login-password" />
-            <button type="button" class="btn btn--primary" data-testid="button-login-preview">Continue to dashboard</button>
+            <button type="button" class="btn btn--primary" data-coming-soon="Secure dashboard login" data-testid="button-login-preview">Continue to dashboard</button>
           </form>
         </div>
       </section>
 
       <section class="section testimonials">
         <div class="shell section-heading reveal">
-          <span class="eyebrow">Trusted workflow</span>
-          <h2>Built for lean ministry teams with global reach.</h2>
+          <span class="eyebrow">Premium AI startup experience</span>
+          <h2>Built for ministry teams that need enterprise-grade clarity.</h2>
         </div>
         <div class="shell testimonial-grid">
-          <blockquote class="reveal">“This is the kind of platform our bilingual media team has needed for years.”<cite>Media Director, multicultural church</cite></blockquote>
-          <blockquote class="reveal">“The value is not replacing pastors. It is removing the production drag around the message.”<cite>Lead Pastor, growing ministry</cite></blockquote>
-          <blockquote class="reveal">“Translation, clips, reports, and recommendations in one place would change our weekly workflow.”<cite>Communications Lead, outreach team</cite></blockquote>
+          <blockquote class="reveal">“This feels like the missing operating system for bilingual and global ministry teams.”<cite>Media Director, multicultural church</cite></blockquote>
+          <blockquote class="reveal">“It does not replace pastors. It removes the content bottleneck around the message.”<cite>Lead Pastor, growing ministry</cite></blockquote>
+          <blockquote class="reveal">“Translation, clips, reports, scheduling, and recommendations in one place would change our week.”<cite>Communications Lead, outreach team</cite></blockquote>
+        </div>
+      </section>
+
+      <section class="section responsible-ai" id="responsible-ai">
+        <div class="shell responsible-grid">
+          <article class="large-card reveal">
+            <span class="eyebrow">Responsible AI</span>
+            <h2>AI assistance under spiritual discernment.</h2>
+            <p>Shiloflow AI assists pastors and ministries with organization, translation, media, and workflow support. It does not replace prayer, biblical study, doctrine, spiritual discernment, or the guidance of the Holy Spirit.</p>
+          </article>
+          <article class="large-card reveal">
+            <span class="eyebrow">Founder vision</span>
+            <h2>Why Shiloflow Exists</h2>
+            <p>Ministries are overwhelmed. Content creation is exhausting. Multilingual outreach is difficult. Shiloflow AI exists to help ministries scale global impact without losing pastoral care, theological seriousness, or the human weight of ministry.</p>
+          </article>
         </div>
       </section>
 
       <section class="section pricing" id="pricing">
         <div class="shell section-heading reveal">
           <span class="eyebrow">Pricing</span>
-          <h2>Launch with a founding-ministry pilot.</h2>
-          <p>Pricing will finalize with early churches and ministries. The first pilot group helps shape the platform before the public SaaS rollout.</p>
+          <h2>Start free. Scale when your ministry workflow grows.</h2>
+          <p>No credit card required. Cancel anytime. Start Free 14-Day Trial for paid plans and choose the workspace that fits your ministry team.</p>
         </div>
         <div class="shell pricing-grid">
           <article class="price-card reveal">
-            <span>Starter</span>
-            <h3>For small churches</h3>
-            <p>Weekly sermon media planning, basic translation support, and content calendar drafts.</p>
-            <a href="#request" class="btn btn--glass">Join waitlist</a>
+            <span>Free Plan</span>
+            <h3>$0</h3>
+            <p>For exploring Shiloflow AI with limited weekly usage.</p>
+            <ul><li>Limited AI generations</li><li>Limited translations</li><li>Basic exports</li></ul>
+            <a href="#request" class="btn btn--glass">Start free</a>
           </article>
           <article class="price-card featured reveal">
-            <span>Founding Ministry</span>
-            <h3>Best for pilot teams</h3>
-            <p>Full AI workspace preview: sermon builder, translation center, media studio, analytics, reports, and guided onboarding.</p>
-            <a href="#request" class="btn btn--primary">Request pilot access</a>
+            <div class="popular-badge">Most Popular</div>
+            <span>Creator Plan</span>
+            <h3>$29/month</h3>
+            <p>For pastors, creators, and small teams publishing weekly content.</p>
+            <ul><li>Sermon assistant</li><li>Multilingual translations</li><li>Subtitle exports</li><li>Media tools</li></ul>
+            <a href="#request" class="btn btn--primary">Start Free 14-Day Trial</a>
           </article>
           <article class="price-card reveal">
-            <span>Network</span>
-            <h3>For multi-campus ministries</h3>
-            <p>Team permissions, branding customization, multilingual workflows, and export-ready reporting.</p>
-            <a href="#request" class="btn btn--glass">Talk to us</a>
+            <span>Ministry Pro</span>
+            <h3>$79/month</h3>
+            <p>For ministry teams that need advanced workflows and collaboration.</p>
+            <ul><li>Advanced AI workflows</li><li>Team collaboration</li><li>Analytics</li><li>Integrations</li><li>Unlimited translations</li></ul>
+            <a href="#request" class="btn btn--glass">Start Free 14-Day Trial</a>
           </article>
+          <article class="price-card reveal">
+            <span>Enterprise</span>
+            <h3>Custom Pricing</h3>
+            <p>For larger ministries, networks, schools, and organizations.</p>
+            <ul><li>Onboarding</li><li>Custom integrations</li><li>Ministry teams</li><li>Advanced automation</li></ul>
+            <a href="#book-demo" class="btn btn--glass">Book Live Demo</a>
+          </article>
+        </div>
+        <div class="shell comparison-table reveal" aria-label="Plan comparison table">
+          <div class="compare-row compare-head"><span>Feature</span><span>Free</span><span>Creator</span><span>Ministry Pro</span><span>Enterprise</span></div>
+          <div class="compare-row"><span>AI sermon workspace</span><span>Limited</span><span>Included</span><span>Advanced</span><span>Custom</span></div>
+          <div class="compare-row"><span>Translations</span><span>Limited</span><span>Included</span><span>Unlimited</span><span>Unlimited</span></div>
+          <div class="compare-row"><span>Subtitle exports</span><span>Basic</span><span>Included</span><span>Included</span><span>Custom</span></div>
+          <div class="compare-row"><span>Team collaboration</span><span>—</span><span>—</span><span>Included</span><span>Advanced</span></div>
+          <div class="compare-row"><span>Integrations</span><span>—</span><span>Basic</span><span>Included</span><span>Custom</span></div>
+        </div>
+      </section>
+
+      <section class="section book-demo" id="book-demo">
+        <div class="shell book-demo-card reveal">
+          <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="mini-logo" />
+          <div>
+            <span class="eyebrow">For larger ministries</span>
+            <h2>Book Live Demo</h2>
+            <p>For ministry networks, global outreach organizations, schools, and large churches that need onboarding, custom integrations, and advanced automation.</p>
+          </div>
+          <a href="#request" class="btn btn--primary btn--lg" data-testid="button-book-live-demo">Book Live Demo</a>
         </div>
       </section>
 
@@ -412,8 +804,8 @@
           <div class="cta-copy reveal">
             <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="cta-logo" />
             <span class="eyebrow">Early access</span>
-            <h2>Build your ministry AI workspace before everyone else sees it.</h2>
-            <p>Tell us about your team, languages, and weekly content workflow. We’ll use your request to prioritize founding-ministry onboarding.</p>
+            <h2>Build your global ministry AI operating system before everyone else sees it.</h2>
+            <p>Tell us about your ministry, languages, publishing channels, and weekly workflow. We’ll use your request to prioritize founding-ministry onboarding.</p>
           </div>
           <form class="request-form reveal" id="lead-form" data-testid="form-request-access">
             <div id="form-success" class="form-success" role="status">
@@ -434,29 +826,62 @@
             <select id="role" name="role" required data-testid="select-role">
               <option value="">Select your role</option>
               <option>Pastor</option>
+              <option>Missionary</option>
               <option>Media director</option>
+              <option>Translator</option>
               <option>Communications lead</option>
               <option>Ministry leader</option>
               <option>Other</option>
             </select>
 
-            <label for="volume">Weekly sermon volume</label>
+            <label for="volume">Weekly content volume</label>
             <select id="volume" name="volume" required data-testid="select-volume">
               <option value="">Select volume</option>
               <option>1 sermon per week</option>
               <option>2–3 sermons per week</option>
               <option>4+ sermons per week</option>
               <option>Multi-campus / network</option>
+              <option>Missionary or global outreach workflow</option>
             </select>
 
             <label for="bottleneck">Biggest content bottleneck</label>
-            <textarea id="bottleneck" name="bottleneck" rows="4" required data-testid="textarea-bottleneck" placeholder="Translation, subtitles, sermon clips, reports, team workflow, analytics..."></textarea>
+            <textarea id="bottleneck" name="bottleneck" rows="4" required data-testid="textarea-bottleneck" placeholder="Translation, subtitles, sermon clips, reports, scheduling, analytics, global publishing..."></textarea>
 
             <label for="notes">Languages and integrations you need</label>
-            <textarea id="notes" name="sermon" rows="4" data-testid="textarea-notes" placeholder="Example: English + Haitian Creole, YouTube, Facebook, Google Drive, Zapier..."></textarea>
+            <textarea id="notes" name="sermon" rows="4" data-testid="textarea-notes" placeholder="Example: Haitian Creole, Spanish, Swahili, Arabic; YouTube, Restream, Google Drive, Zapier..."></textarea>
 
             <button type="submit" class="btn btn--primary btn--lg" data-testid="button-submit-request">Request Shiloflow AI access</button>
           </form>
+        </div>
+      </section>
+
+      <section class="success-screen" id="early-access-confirmation" aria-live="polite" aria-hidden="true">
+        <div class="success-panel">
+          <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="login-logo" />
+          <span class="eyebrow">Early access confirmed</span>
+          <h2>You’re on the early access list</h2>
+          <p>Your ministry has been added to the Shiloflow AI founder access queue. We’ll review your workflow, languages, and publishing needs for onboarding priority.</p>
+          <div class="onboarding-flow" aria-label="Simulated onboarding flow">
+            <article><b>1</b><span>Founder access review</span></article>
+            <article><b>2</b><span>Workflow discovery</span></article>
+            <article><b>3</b><span>Guided demo invite</span></article>
+          </div>
+          <button type="button" class="btn btn--primary btn--lg" data-close-success data-testid="button-close-success">Continue exploring</button>
+        </div>
+      </section>
+
+      <section class="success-screen coming-soon-modal" id="coming-soon-modal" aria-live="polite" aria-hidden="true">
+        <div class="success-panel">
+          <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="login-logo" />
+          <span class="eyebrow">Coming Soon</span>
+          <h2 id="coming-soon-title">This tool is being prepared</h2>
+          <p id="coming-soon-copy">This feature is part of the Shiloflow AI platform roadmap. Join early access to get founder updates as tools become available.</p>
+          <div class="onboarding-flow" aria-label="Coming soon onboarding flow">
+            <article><b>1</b><span>Founder preview</span></article>
+            <article><b>2</b><span>Private beta access</span></article>
+            <article><b>3</b><span>Workspace rollout</span></article>
+          </div>
+          <button type="button" class="btn btn--primary btn--lg" data-close-coming-soon data-testid="button-close-coming-soon">Back to platform</button>
         </div>
       </section>
     </main>
@@ -467,17 +892,27 @@
           <img src="./assets/shiloflow-logo.jpeg" alt="Shiloflow AI logo" class="brand-logo" />
           <span>
             Shiloflow AI
-            <small>The AI workspace for global ministries</small>
+            <small>AI Operating System for Global Ministries</small>
           </span>
         </a>
         <div class="footer-links">
           <a href="#translation">Translation Center</a>
-          <a href="#sermon-builder">AI Sermon Builder</a>
+          <a href="#sermon-workspace">Sermon Workspace</a>
           <a href="#studio">Media Studio</a>
           <a href="#analytics">Analytics</a>
+          <a href="#collaboration">Collaboration</a>
           <a href="#settings">Settings</a>
         </div>
-        <p>© <span id="year"></span> Shiloflow AI. Built for churches, pastors, ministries, and multilingual media teams.</p>
+        <div class="footer-links footer-links--legal">
+          <a href="./about.html">About</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./ai-usage-policy.html">AI Usage Policy</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./support.html">Support</a>
+          <a href="./status.html">Platform Status</a>
+        </div>
+        <p>© <span id="year"></span> Shiloflow AI. Transform one sermon into a complete multilingual ministry ecosystem.</p>
       </div>
     </footer>
 
@@ -808,7 +1243,6 @@
     handleCaptureRequest(event);
   });
 })();
-
 
 </script></body>
 </html>
